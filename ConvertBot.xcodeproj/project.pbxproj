@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D9B9BA82928D2A00074300B /* SimpleMediaConverterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B9BA42928D2A00074300B /* SimpleMediaConverterApp.swift */; };
+		4D9B9BA82928D2A00074300B /* ConvertBotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B9BA42928D2A00074300B /* ConvertBotApp.swift */; };
 		4D9B9BA92928D2A00074300B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B9BA52928D2A00074300B /* ContentView.swift */; };
 		4D9B9BAA2928D2A00074300B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D9B9BA62928D2A00074300B /* Assets.xcassets */; };
 		4D9B9BB62928D38C0074300B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D9B9BB52928D38C0074300B /* Preview Assets.xcassets */; };
@@ -15,8 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4D9B9BA32928D2A00074300B /* Simple Media Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Media Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D9B9BA42928D2A00074300B /* SimpleMediaConverterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMediaConverterApp.swift; sourceTree = "<group>"; };
+		4D9B9BA32928D2A00074300B /* ConvertBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConvertBot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D9B9BA42928D2A00074300B /* ConvertBotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertBotApp.swift; sourceTree = "<group>"; };
 		4D9B9BA52928D2A00074300B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4D9B9BA62928D2A00074300B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D9B9BA72928D2A00074300B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,7 +39,7 @@
 			isa = PBXGroup;
 			children = (
 				566CA4362ED8F5F900BA689D /* Resources */,
-				4D9B9BC82928D4F20074300B /* SimpleMediaConverter */,
+				4D9B9BC82928D4F20074300B /* ConvertBot */,
 				4D9B9BA12928D2A00074300B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,7 +47,7 @@
 		4D9B9BA12928D2A00074300B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D9B9BA32928D2A00074300B /* Simple Media Converter.app */,
+				4D9B9BA32928D2A00074300B /* ConvertBot.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,16 +60,16 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		4D9B9BC82928D4F20074300B /* SimpleMediaConverter */ = {
+		4D9B9BC82928D4F20074300B /* ConvertBot */ = {
 			isa = PBXGroup;
 			children = (
-				4D9B9BA42928D2A00074300B /* SimpleMediaConverterApp.swift */,
+				4D9B9BA42928D2A00074300B /* ConvertBotApp.swift */,
 				4D9B9BA52928D2A00074300B /* ContentView.swift */,
 				4D9B9BA62928D2A00074300B /* Assets.xcassets */,
 				4D9B9BA72928D2A00074300B /* Info.plist */,
 				4D9B9BB42928D380074300B /* Preview Content */,
 			);
-			path = SimpleMediaConverter;
+			path = ConvertBot;
 			sourceTree = "<group>";
 		};
 		566CA4362ED8F5F900BA689D /* Resources */ = {
@@ -83,9 +83,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4D9B9BA22928D2A00074300B /* Simple Media Converter */ = {
+		4D9B9BA22928D2A00074300B /* ConvertBot */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D9B9BB12928D2A00074300B /* Build configuration list for PBXNativeTarget "Simple Media Converter" */;
+			buildConfigurationList = 4D9B9BB12928D2A00074300B /* Build configuration list for PBXNativeTarget "ConvertBot" */;
 			buildPhases = (
 				4D9B9B9F2928D2A00074300B /* Sources */,
 				4D9B9BA02928D2A00074300B /* Frameworks */,
@@ -95,9 +95,9 @@
 			);
 			dependencies = (
 			);
-			name = "Simple Media Converter";
-			productName = "Simple Media Converter";
-			productReference = 4D9B9BA32928D2A00074300B /* Simple Media Converter.app */;
+			name = "ConvertBot";
+			productName = "ConvertBot";
+			productReference = 4D9B9BA32928D2A00074300B /* ConvertBot.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4D9B9BAC2928D2A00074300B /* Build configuration list for PBXProject "SimpleMediaConverter" */;
+			buildConfigurationList = 4D9B9BAC2928D2A00074300B /* Build configuration list for PBXProject "ConvertBot" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D9B9BA22928D2A00074300B /* Simple Media Converter */,
+				4D9B9BA22928D2A00074300B /* ConvertBot */,
 			);
 		};
 /* End PBXProject section */
@@ -150,7 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D9B9BA82928D2A00074300B /* SimpleMediaConverterApp.swift in Sources */,
+				4D9B9BA82928D2A00074300B /* ConvertBotApp.swift in Sources */,
 				4D9B9BA92928D2A00074300B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,18 +270,18 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SimpleMediaConverter/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ConvertBot/Preview Content\"";
 				DEVELOPMENT_TEAM = 543VTGK8EK;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = SimpleMediaConverter/Info.plist;
+				INFOPLIST_FILE = ConvertBot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.thomasboom.SimpleMediaConverter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thomasboom.ConvertBot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.9;
@@ -298,18 +298,18 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SimpleMediaConverter/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ConvertBot/Preview Content\"";
 				DEVELOPMENT_TEAM = 543VTGK8EK;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = SimpleMediaConverter/Info.plist;
+				INFOPLIST_FILE = ConvertBot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.thomasboom.SimpleMediaConverter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thomasboom.ConvertBot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.9;
@@ -320,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D9B9BAC2928D2A00074300B /* Build configuration list for PBXProject "SimpleMediaConverter" */ = {
+		4D9B9BAC2928D2A00074300B /* Build configuration list for PBXProject "ConvertBot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D9B9BAD2928D2A00074300B /* Debug */,
@@ -329,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D9B9BB12928D2A00074300B /* Build configuration list for PBXNativeTarget "Simple Media Converter" */ = {
+		4D9B9BB12928D2A00074300B /* Build configuration list for PBXNativeTarget "ConvertBot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D9B9BB22928D2A00074300B /* Debug */,

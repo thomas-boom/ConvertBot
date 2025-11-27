@@ -1,7 +1,8 @@
 import SwiftUI
+import AppKit
 
 @main
-struct VideoConverterApp: App {
+struct ConvertBotApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
@@ -10,7 +11,7 @@ struct VideoConverterApp: App {
         .windowToolbarStyle(.unifiedCompact)
         .commands {
             CommandGroup(replacing: .appInfo) {
-                Button("About This App") {
+                Button("About ConvertBot") {
                     let window = NSWindow(
                         contentRect: NSRect(x: 0, y: 0, width: 360, height: 260),
                         styleMask: [.titled, .closable, .miniaturizable],
@@ -18,7 +19,7 @@ struct VideoConverterApp: App {
                         defer: false
                     )
                     window.center()
-                    window.title = "About"
+                    window.title = "About ConvertBot"
                     window.contentView = NSHostingView(rootView: AboutWindow())
                     window.makeKeyAndOrderFront(nil)
                 }
@@ -26,4 +27,3 @@ struct VideoConverterApp: App {
         }
     }
 }
-

@@ -37,7 +37,7 @@
 git clone https://github.com/thomas-boom/ConvertBot.git
 ```
 
-2.	Open SimpleMediaConverter.xcodeproj in Xcode (internal titles will be changed soon.)
+2. Open `ConvertBot.xcodeproj` in Xcode.
 3.	Build and run the app on your Mac.
 
 ## Usage
