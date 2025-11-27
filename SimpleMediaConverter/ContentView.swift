@@ -248,7 +248,7 @@ struct ContentView: View {
         if sourceURL.pathExtension.lowercased() == "avi" {
             statusMessage = "Converting AVI via FFmpeg…"
 
-            guard let ffmpegURL = Bundle.main.url(forResource: "ffmpeg", withExtension: nil, subdirectory: "Resources/FFmpeg") else {
+            guard let ffmpegURL = Bundle.main.url(forResource: "ffmpeg", withExtension: nil) else {
                 alertMessage = AlertMessage(text: "FFmpeg binary not found in app bundle.")
                 isConverting = false
                 return
@@ -409,13 +409,13 @@ struct AboutWindow: View {
 
     var body: some View {
         VStack(spacing: 16) {
-            Text("About This App")
+            Text("ConvertBot")
                 .font(.system(size: 15, weight: .medium, design: .monospaced))
             Text("Created by Thomas Boom — 2025")
                 .font(.system(size: 12, design: .monospaced))
                 .foregroundStyle(.secondary)
             Divider()
-            Text("A macOS Sonoma+ utility for converting video or audio files using modern AVFoundation APIs.")
+            Text("A simple macOS Sonoma+ utility for converting video or audio files using modern AVFoundation API and FFMPEG when necessary")
                 .font(.system(size: 12, design: .monospaced))
                 .multilineTextAlignment(.center)
             Button("Close") { dismiss() }  // Use dismiss() instead of NSApp.keyWindow?.close()

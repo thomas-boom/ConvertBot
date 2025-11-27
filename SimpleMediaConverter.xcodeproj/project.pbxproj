@@ -11,6 +11,7 @@
 		4D9B9BA92928D2A00074300B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B9BA52928D2A00074300B /* ContentView.swift */; };
 		4D9B9BAA2928D2A00074300B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D9B9BA62928D2A00074300B /* Assets.xcassets */; };
 		4D9B9BB62928D38C0074300B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D9B9BB52928D38C0074300B /* Preview Assets.xcassets */; };
+		566CA4392ED8F61500BA689D /* ffmpeg in Resources */ = {isa = PBXBuildFile; fileRef = 566CA4382ED8F61500BA689D /* ffmpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		4D9B9BA62928D2A00074300B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D9B9BA72928D2A00074300B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D9B9BB52928D38C0074300B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		566CA4382ED8F61500BA689D /* ffmpeg */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ffmpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 		4D9B9B9D2928D2A00074300B = {
 			isa = PBXGroup;
 			children = (
+				566CA4362ED8F5F900BA689D /* Resources */,
 				4D9B9BC82928D4F20074300B /* SimpleMediaConverter */,
 				4D9B9BA12928D2A00074300B /* Products */,
 			);
@@ -47,6 +50,14 @@
 				4D9B9BA32928D2A00074300B /* Simple Media Converter.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4D9B9BB42928D380074300B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4D9B9BB52928D38C0074300B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		4D9B9BC82928D4F20074300B /* SimpleMediaConverter */ = {
@@ -61,12 +72,12 @@
 			path = SimpleMediaConverter;
 			sourceTree = "<group>";
 		};
-		4D9B9BB42928D380074300B /* Preview Content */ = {
+		566CA4362ED8F5F900BA689D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4D9B9BB52928D38C0074300B /* Preview Assets.xcassets */,
+				566CA4382ED8F61500BA689D /* ffmpeg */,
 			);
-			path = "Preview Content";
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D9B9BB62928D38C0074300B /* Preview Assets.xcassets in Resources */,
+				566CA4392ED8F61500BA689D /* ffmpeg in Resources */,
 				4D9B9BAA2928D2A00074300B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,11 +266,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SimpleMediaConverter/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 543VTGK8EK;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = SimpleMediaConverter/Info.plist;
@@ -281,11 +294,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SimpleMediaConverter/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 543VTGK8EK;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = SimpleMediaConverter/Info.plist;
@@ -328,4 +342,3 @@
 	};
 	rootObject = 4D9B9B9E2928D2A00074300B /* Project object */;
 }
-
