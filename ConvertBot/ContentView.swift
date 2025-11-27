@@ -431,20 +431,60 @@ private struct AlertMessage: Identifiable {
 
 // Minimal About window shown by the sheet; keep lightweight for now
 struct AboutWindow: View {
+    @Environment(\.dismiss) private var dismiss
+
+    private var appVersion: String {
+        let v = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String
+        let b = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as? String
+        if let v = v, let b = b { return "v\(v) (build \(b))" }
+        return v ?? b ?? "1.0"
+    }
+
     var body: some View {
         VStack(spacing: 12) {
-            Text("ConvertBot")
-                .font(.title2)
-            Text("A small helper to convert media files.")
-                .font(.subheadline)
-                .foregroundStyle(.secondary)
-            Divider()
-            Button("OK") {
-                NSApp.keyWindow?.firstResponder?.tryToPerform(#selector(NSWindow.close), with: nil)
+            VStack(spacing: 6) {
+                Text("ConvertBot")
+                    .font(.title2)
+                    .bold()
+
+                Text(appVersion)
+                    .font(.footnote)
+                    .foregroundStyle(.secondary)
             }
-            .keyboardShortcut(.defaultAction)
+
+            Text("ConvertBot is a lightweight macOS utility for quickly converting audio and video files between common formats. It uses AVFoundation presets for typical exports and falls back to an embedded FFmpeg binary for formats not handled directly (e.g. AVI). Use the UI to pick a file, select the desired output format, and choose compression options if you need smaller files.")
+                .font(.subheadline)
+                .multilineTextAlignment(.center)
+                .padding(.top, 6)
+
+            HStack(spacing: 8) {
+                Text("Author:")
+                    .font(.footnote)
+                    .foregroundStyle(.secondary)
+                Text("thomas boom")
+                    .font(.footnote)
+                    .bold()
+            }
+
+            Divider()
+
+            HStack {
+                Spacer()
+                Button("OK") {
+                    // Dismiss sheet presentation
+                    dismiss()
+
+                    // Close any standalone About window opened programmatically
+                    if let win = NSApp.windows.first(where: { $0.title == "About ConvertBot" }) {
+                        win.close()
+                    } else {
+                        NSApp.keyWindow?.close()
+                    }
+                }
+                .keyboardShortcut(.defaultAction)
+            }
         }
         .padding(20)
-        .frame(minWidth: 300, minHeight: 140)
+        .frame(minWidth: 420, minHeight: 220)
     }
 }
