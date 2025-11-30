@@ -12,34 +12,28 @@
 		4D9B9BAA2928D2A00074300B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D9B9BA62928D2A00074300B /* Assets.xcassets */; };
 		4D9B9BB62928D38C0074300B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D9B9BB52928D38C0074300B /* Preview Assets.xcassets */; };
 		566CA4392ED8F61500BA689D /* ffmpeg in Resources */ = {isa = PBXBuildFile; fileRef = 566CA4382ED8F61500BA689D /* ffmpeg */; };
-		56EB5CB82EDCE51200D0519B /* AlertMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB5CB52EDCE51200D0519B /* AlertMessage.swift */; };
-		56EB5CB92EDCE51200D0519B /* ExportTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB5CB62EDCE51200D0519B /* ExportTypes.swift */; };
-		56EB5CBA2EDCE51200D0519B /* FFmpegRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB5CB72EDCE51200D0519B /* FFmpegRunner.swift */; };
-		56EB5CBD2EDCE52300D0519B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB5CBC2EDCE52300D0519B /* Utilities.swift */; };
-		56EB5CBE2EDCE52300D0519B /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB5CBB2EDCE52300D0519B /* Notifications.swift */; };
-		56EB5CC12EDCE52D00D0519B /* AboutWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB5CBF2EDCE52D00D0519B /* AboutWindow.swift */; };
-		56EB5CC22EDCE52D00D0519B /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB5CC02EDCE52D00D0519B /* ProgressBarView.swift */; };
-		56EB5CC42EDCF2C900D0519B /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB5CC32EDCF2C900D0519B /* UIConstants.swift */; };
-		56EB5CC52EDCF2C900D0519B /* HostingWindowFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB5CC62EDCF2C900D0519B /* HostingWindowFinder.swift */; };
+		A1F3E6D42928D2A00074300B /* ExportTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F3E6D32928D2A00074300B /* ExportTypes.swift */; };
+		A1F3E6D52928D2A00074300B /* AlertMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F3E6D42928D2A00074300B /* AlertMessage.swift */; };
+		A1F3E6D62928D2A00074300B /* FFmpegRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F3E6D62928D2A00074300B /* FFmpegRunner.swift */; };
+		A1F3E6D82928D2A00074300B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F3E6D82928D2A00074300B /* Utilities.swift */; };
+		A1F3E6DA2928D2A00074300B /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F3E6DA2928D2A00074300B /* ProgressBarView.swift */; };
+		A1F3E6DC2928D2A00074300B /* AboutWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F3E6DC2928D2A00074300B /* AboutWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4D9B9BA32928D2A00074300B /* ConvertBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConvertBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D9B9BA32928D2A00074300B /* ConvertBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConvertBot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D9B9BA42928D2A00074300B /* ConvertBotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertBotApp.swift; sourceTree = "<group>"; };
 		4D9B9BA52928D2A00074300B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4D9B9BA62928D2A00074300B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1F3E6D32928D2A00074300B /* ExportTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Helpers/ExportTypes.swift"; sourceTree = "<group>"; };
+		A1F3E6D42928D2A00074300B /* AlertMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Helpers/AlertMessage.swift"; sourceTree = "<group>"; };
+		A1F3E6D62928D2A00074300B /* FFmpegRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Helpers/FFmpegRunner.swift"; sourceTree = "<group>"; };
+		A1F3E6D82928D2A00074300B /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utils/Utilities.swift"; sourceTree = "<group>"; };
+		A1F3E6DA2928D2A00074300B /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/ProgressBarView.swift"; sourceTree = "<group>"; };
+		A1F3E6DC2928D2A00074300B /* AboutWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/AboutWindow.swift"; sourceTree = "<group>"; };
 		4D9B9BA72928D2A00074300B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D9B9BB52928D38C0074300B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		566CA4382ED8F61500BA689D /* ffmpeg */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ffmpeg; sourceTree = "<group>"; };
-		56EB5CB52EDCE51200D0519B /* AlertMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertMessage.swift; sourceTree = "<group>"; };
-		56EB5CB62EDCE51200D0519B /* ExportTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportTypes.swift; sourceTree = "<group>"; };
-		56EB5CB72EDCE51200D0519B /* FFmpegRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFmpegRunner.swift; sourceTree = "<group>"; };
-		56EB5CBB2EDCE52300D0519B /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
-		56EB5CBC2EDCE52300D0519B /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
-		56EB5CBF2EDCE52D00D0519B /* AboutWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutWindow.swift; sourceTree = "<group>"; };
-		56EB5CC02EDCE52D00D0519B /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
-		56EB5CC32EDCF2C900D0519B /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
-		56EB5CC62EDCF2C900D0519B /* HostingWindowFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingWindowFinder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +77,14 @@
 			children = (
 				4D9B9BA42928D2A00074300B /* ConvertBotApp.swift */,
 				4D9B9BA52928D2A00074300B /* ContentView.swift */,
+				A1F3E6D32928D2A00074300B /* ExportTypes.swift */,
+				A1F3E6D42928D2A00074300B /* AlertMessage.swift */,
+				A1F3E6D62928D2A00074300B /* FFmpegRunner.swift */,
+				A1F3E6D82928D2A00074300B /* Utilities.swift */,
+				A1F3E6DA2928D2A00074300B /* ProgressBarView.swift */,
+				A1F3E6DC2928D2A00074300B /* AboutWindow.swift */,
 				4D9B9BA62928D2A00074300B /* Assets.xcassets */,
 				4D9B9BA72928D2A00074300B /* Info.plist */,
-				9A9B9BC02928D2A00074300C /* Helpers */,
-				9A9B9BC12928D2A00074300C /* Utils */,
-				9A9B9BC22928D2A00074300C /* Views */,
 				4D9B9BB42928D380074300B /* Preview Content */,
 			);
 			path = ConvertBot;
@@ -99,36 +96,6 @@
 				566CA4382ED8F61500BA689D /* ffmpeg */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		9A9B9BC02928D2A00074300C /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				56EB5CB52EDCE51200D0519B /* AlertMessage.swift */,
-				56EB5CB62EDCE51200D0519B /* ExportTypes.swift */,
-				56EB5CB72EDCE51200D0519B /* FFmpegRunner.swift */,
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		9A9B9BC12928D2A00074300C /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				56EB5CBB2EDCE52300D0519B /* Notifications.swift */,
-				56EB5CBC2EDCE52300D0519B /* Utilities.swift */,
-				56EB5CC32EDCF2C900D0519B /* UIConstants.swift */,
-				56EB5CC62EDCF2C900D0519B /* HostingWindowFinder.swift */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		9A9B9BC22928D2A00074300C /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				56EB5CBF2EDCE52D00D0519B /* AboutWindow.swift */,
-				56EB5CC02EDCE52D00D0519B /* ProgressBarView.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +113,8 @@
 			);
 			dependencies = (
 			);
-			name = ConvertBot;
-			productName = ConvertBot;
+			name = "ConvertBot";
+			productName = "ConvertBot";
 			productReference = 4D9B9BA32928D2A00074300B /* ConvertBot.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -201,17 +168,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56EB5CBD2EDCE52300D0519B /* Utilities.swift in Sources */,
-				56EB5CBE2EDCE52300D0519B /* Notifications.swift in Sources */,
 				4D9B9BA82928D2A00074300B /* ConvertBotApp.swift in Sources */,
 				4D9B9BA92928D2A00074300B /* ContentView.swift in Sources */,
-				56EB5CC12EDCE52D00D0519B /* AboutWindow.swift in Sources */,
-				56EB5CC22EDCE52D00D0519B /* ProgressBarView.swift in Sources */,
-				56EB5CB82EDCE51200D0519B /* AlertMessage.swift in Sources */,
-				56EB5CC42EDCF2C900D0519B /* UIConstants.swift in Sources */,
-				56EB5CC52EDCF2C900D0519B /* HostingWindowFinder.swift in Sources */,
-				56EB5CB92EDCE51200D0519B /* ExportTypes.swift in Sources */,
-				56EB5CBA2EDCE51200D0519B /* FFmpegRunner.swift in Sources */,
+				A1F3E6D42928D2A00074300B /* ExportTypes.swift in Sources */,
+				A1F3E6D52928D2A00074300B /* AlertMessage.swift in Sources */,
+				A1F3E6D62928D2A00074300B /* FFmpegRunner.swift in Sources */,
+				A1F3E6D82928D2A00074300B /* Utilities.swift in Sources */,
+				A1F3E6DA2928D2A00074300B /* ProgressBarView.swift in Sources */,
+				A1F3E6DC2928D2A00074300B /* AboutWindow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

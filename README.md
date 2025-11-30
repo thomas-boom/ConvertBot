@@ -11,7 +11,7 @@
 ## Features
 
 - ✅ Convert **video files** (`MOV`, `MP4`, `M4V`, `AVI`)  
-- ✅ Convert **audio files** (`M4A`, `WAV`, `CAF`, `AAC`, `AIFF`)  
+- ✅ Convert **audio files** (`M4A`, `WAV`, `MP3`, `AAC`, `AIFF`)  
 - ✅ Optional **compression** for smaller file sizes  
 - ✅ Select **video quality presets**: Passthrough, High, Medium, Low  
 - ✅ Native **progress bar** with percentage indicator  
@@ -44,7 +44,7 @@ git clone https://github.com/thomas-boom/ConvertBot.git
 
 1. Click **Choose Media…** to select a video or audio file.
 2. For video, pick the desired export format: `MOV`, `MP4`, or `M4V`.
-3. For audio, pick the desired export format: `M4A`, `WAV`, `CAF`, `AAC`, or `AIFF`.
+3. For audio, pick the desired export format: `M4A`, `WAV`, `MP3`, `AAC`, or `AIFF`.
 4. (Optional) Toggle **Compress** for smaller file size and select video quality.
 5. Conversion starts immediately; monitor progress with the animated progress bar.
 6. When finished, the app will notify you and provide quick access to the converted file in Finder.
