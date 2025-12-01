@@ -43,6 +43,10 @@ git clone https://github.com/thomas-boom/ConvertBot.git
 2. Open `ConvertBot.xcodeproj` in Xcode.
 3.	Build and run the app on your Mac.
 
+# OR
+
+Download the v1.0 version .app from the Releases page.
+
 ## Usage
 
 1. Click **Choose Media…** to select a video or audio file.
