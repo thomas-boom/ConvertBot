@@ -8,6 +8,9 @@
 
 ---
 
+<img width="1012" height="837" alt="Scherm­afbeelding 2025-12-01 om 12 04 15" src="https://github.com/user-attachments/assets/0d484713-3eb6-4a14-a536-ff83f9041a56" />
+
+
 ## Features
 
 - ✅ Convert **video files** (`MOV`, `MP4`, `M4V`, `AVI`)  
